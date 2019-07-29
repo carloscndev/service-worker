@@ -1,0 +1,34 @@
+.App {
+  background-color: #FFFAFA;
+}
+
+@media (min-width: 1024px) {
+  .App {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "subheader subheader"
+      "product productlist";
+    grid-template-rows: auto auto calc(100vh - 8rem);
+    grid-template-columns: 3.5fr 1fr;
+
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+  .App .header {
+    grid-area: header;
+  }
+
+  .App .sub-header {
+    grid-area: subheader;
+  }
+
+  .App .product-wrapper {
+    grid-area: product;
+  }
+
+  .App .product-list{
+    grid-area: productlist;
+  }
+}

@@ -1,0 +1,29 @@
+.sub-header {
+  display: none;
+
+  margin: 0.5rem auto;
+}
+
+.sub-header .content {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-header .content span {
+  cursor: pointer;
+  margin: auto 0.5rem;
+  font-family: 'Darker', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sub-header .content span:hover {
+  text-decoration: underline;
+}
+
+@media(min-width: 1024px) {
+  .sub-header {
+    display: inherit;
+  }
+}

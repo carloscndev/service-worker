@@ -1,0 +1,16 @@
+.product-list {
+  border: solid 1px black;
+  display: flex;
+  justify-content: stretch;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+@media(min-width: 1024px) {
+  .product-list {
+    border: none;
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
