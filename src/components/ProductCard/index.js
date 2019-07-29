@@ -6,7 +6,7 @@ const ProductCard = ({ product }) => (
     <div className="like-card">
       <span><i className="fas fa-heart" /></span>
     </div>
-    <div className="image-container">
+    <div className="image-container" onClick={() => console.log(product._id)}>
       <img
         src={require(`../../assets/images/${product.image}`)}
         alt={product.name}

@@ -14,12 +14,13 @@ import { PRODUCTS } from '../../config/PRODUCTS'
 import './App.css'
 
 function App() {
-  const product = PRODUCTS[0]
+  const index = 1;
+  const productFiltered = PRODUCTS.filter(product => product._id === index)[0]
   return (
     <div className="App">
       <Header />
       <SubHeader />
-      <ProductDetail product={product}/>
+      <ProductDetail product={productFiltered}/>
       <ProductList products={PRODUCTS} />
     </div>
   );
