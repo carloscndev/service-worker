@@ -1,5 +1,4 @@
 .product-list {
-  border: solid 1px black;
   display: flex;
   justify-content: stretch;
   overflow-y: hidden;
