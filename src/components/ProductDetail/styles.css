@@ -1,5 +1,5 @@
 .product-wrapper {
-  animation: enter 0.2s step-end forwards;
+  animation: enter 0.3s ease-in forwards;
   display: grid;
   grid-template-areas:
     "description"
@@ -8,6 +8,7 @@
   margin: 0.5rem auto;
   opacity: 0;
   width: calc(100% - 20px);
+  transform: scale(0);
 }
 
 /* Product Image */
@@ -98,9 +99,11 @@
 @keyframes enter {
   from {
     opacity: 0;
+    transform: scale(0);
   }
 
   to {
     opacity: 1;
+    transform: scale(1);
   }
 }
