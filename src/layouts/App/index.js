@@ -1,5 +1,5 @@
 // Import Modules
-import React, { Component } from 'react';
+import React, { useState} from 'react';
 
 // Import Components
 import Header from '../../components/Header'
@@ -13,35 +13,24 @@ import { PRODUCTS } from '../../config/PRODUCTS'
 // Import Styles
 import './App.css'
 
- class App extends Component {
+ const App = () => {
 
-   constructor(props) {
-    super(props)
-    this.state = {
-      index: 1
-    }
+    const [index, selectProduct] = useState(1)
+    const productFiltered = PRODUCTS.filter(product => product._id === index)[0]
 
-    this.selectProduct = this.selectProduct.bind(this)
-   }
-
-   selectProduct(index) {
-     this.setState({
-        index
-     })
-   }
-
-   render() {
-     const  { index } = this.state;
-     const productFiltered = PRODUCTS.filter(product => product._id === index)[0]
-     return (
-       <div className="App">
-         <Header />
-         <SubHeader />
-         <ProductDetail product={productFiltered}/>
-         <ProductList products={PRODUCTS} selectProduct={this.selectProduct} />
-       </div>
-     );
-   }
+    return (
+      <div className="App">
+        <Header />
+        <SubHeader />
+        <ProductDetail product={productFiltered}/>
+        <ProductList products={PRODUCTS} selectProduct={selectProduct} />
+      </div>
+    );
  }
+
+
+
+
+
 
 export default App;
