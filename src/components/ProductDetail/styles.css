@@ -1,10 +1,12 @@
 .product-wrapper {
+  animation: enter 0.2s step-end forwards;
   display: grid;
   grid-template-areas:
     "description"
     "image"
     "summary";
   margin: 0.5rem auto;
+  opacity: 0;
   width: calc(100% - 20px);
 }
 
@@ -90,5 +92,15 @@
   .product-summary {
     font-size: 1.8rem;
     text-align: left;
+  }
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
