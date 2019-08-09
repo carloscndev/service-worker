@@ -16,17 +16,17 @@ import './App.css'
  class App extends Component {
 
    constructor(props) {
-     super(props)
-     this.state = {
-       index: 1
-     }
+    super(props)
+    this.state = {
+      index: 1
+    }
 
-     this.selectProduct = this.selectProduct.bind(this)
+    this.selectProduct = this.selectProduct.bind(this)
    }
 
    selectProduct(index) {
      this.setState({
-       index
+        index
      })
    }
 
