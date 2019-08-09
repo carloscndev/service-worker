@@ -1,7 +1,7 @@
 export const PRODUCTS = [
     {
         _id: 1,
-        name: 'Product Name',
+        name: 'Product 1',
         description: 'Product Description',
         summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         price: 99,
@@ -9,7 +9,7 @@ export const PRODUCTS = [
     },
     {
         _id: 2,
-        name: 'Product Name',
+        name: 'Product 2',
         description: 'Product Description',
         summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         price: 99,
@@ -17,7 +17,7 @@ export const PRODUCTS = [
     },
     {
         _id: 3,
-        name: 'Product Name',
+        name: 'Product 3',
         description: 'Product Description',
         summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         price: 99,
@@ -25,7 +25,7 @@ export const PRODUCTS = [
     },
     {
         _id: 4,
-        name: 'Product Name',
+        name: 'Product 4',
         description: 'Product Description',
         summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         price: 99,
@@ -33,7 +33,7 @@ export const PRODUCTS = [
     },
     {
         _id: 5,
-        name: 'Product Name',
+        name: 'Product 5',
         description: 'Product Description',
         summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         price: 99,
@@ -41,7 +41,7 @@ export const PRODUCTS = [
     },
     {
         _id: 6,
-        name: 'Product Name',
+        name: 'Product 6',
         description: 'Product Description',
         summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         price: 99,
@@ -49,23 +49,31 @@ export const PRODUCTS = [
     },
     {
         _id: 7,
-        name: 'Product Name',
+        name: 'Product 7',
+        description: 'Product Description',
+        summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        price: 99,
+        image: 'p7.png',
+    },
+    {
+        _id: 8,
+        name: 'Product 8',
         description: 'Product Description',
         summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         price: 99,
         image: 'p8.png',
     },
     {
-        _id: 9,
-        name: 'Product Name',
-        description: 'Product Description',
-        summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        price: 99,
-        image: 'p9.png',
-    },
+      _id: 9,
+      name: 'Product 9',
+      description: 'Product Description',
+      summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      price: 99,
+      image: 'p9.png',
+  },
     {
         _id: 10,
-        name: 'Product Name',
+        name: 'Product 10',
         description: 'Product Description',
         summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         price: 99,
@@ -73,7 +81,7 @@ export const PRODUCTS = [
     },
     {
         _id: 11,
-        name: 'Product Name',
+        name: 'Product 11',
         description: 'Product Description',
         summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         price: 99,
@@ -81,7 +89,7 @@ export const PRODUCTS = [
     },
     {
         _id: 12,
-        name: 'Product Name',
+        name: 'Product 12',
         description: 'Product Description',
         summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         price: 99,

@@ -1,12 +1,12 @@
 import React from 'react'
 import './styles.css'
 
-const ProductCard = ({ product }) => (
+const ProductCard = ({ product, selectProduct }) => (
   <article className="product-card">
     <div className="like-card">
       <span><i className="fas fa-heart" /></span>
     </div>
-    <div className="image-container" onClick={() => console.log(product._id)}>
+    <div className="image-container" onClick={() => selectProduct(product._id)}>
       <img
         src={require(`../../assets/images/${product.image}`)}
         alt={product.name}

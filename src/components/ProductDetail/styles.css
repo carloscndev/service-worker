@@ -10,13 +10,18 @@
 
 /* Product Image */
 .product-wrapper .image-container {
+  align-items: center;
+  display: flex;
   grid-area: image;
+  justify-content: center;
   margin: auto;
-  width: 70%;
+  height: 320px;
 }
 
 .product-wrapper .image-container img {
   max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
 }
 
 /* Product Description */
@@ -65,7 +70,12 @@
   }
 
   .product-wrapper .image-container {
-    width: 60%;
+    align-self: center;
+    height: 80%;
+  }
+
+  .product-description .image-container img {
+    max-height: 100%;
   }
 
   .product-description h2 {
